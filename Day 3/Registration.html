@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+<body style='background-color: #e9e9e9;'>
+    <h1 style='text-align: center; color: blue;'>Registration Page</h1>
+    <form action="#" method='post'>
+        <div style='text-align: center;'>
+            <label for="name">Name: </label> <input type="text" placeholder='Your Name' name='name' required>
+        </div>
+        <br>
+        <div style='text-align: center;'>
+            <label for="email">Email: </label> <input type="email" placeholder="Your email" name='email' required>
+            <br>
+        </div>
+        <br>
+        <div style='text-align: center;'>
+            <label for="number">Number: </label> <input type="number" placeholder="Your Number">
+        </div>
+        <br>
+        <div style='text-align: center;'>
+            <label for="gender">Gender: </label> <input type="radio" value='male' name='gender'>Male
+            <br>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="radio" value='female' name='gender'>Female
+        </div>
+        <br>
+        <div style='text-align: center;'>
+            <label for="date-of-birth">Date Of Birth: </label> <input type="date" required>
+        </div>
+        <br>
+        <div style='text-align: center;'>
+            <label for="region">Select Region of Origin: </label> 
+            <select name="region" id="region">
+                <option value="ahafo">Ahafo</option>
+                <option value="ashanti">Ashanti</option>
+                <option value="bono east">Bono East</option>
+                <option value="bono">Bono</option>
+                <option value="central">central</option>
+                <option value="eastern">Eastern</option>
+                <option value="greater accra" selected>Greater Accra</option>
+                <option value="north east">North East</option>
+                <option value="northern">northern</option>
+                <option value="oti">Oti</option>
+                <option value="savannah">Savannah</option>
+                <option value="upper east">Upper East</option>
+                <option value="upper west">Upper West</option>
+                <option value="Volta">Volta</option>
+                <option value="Western north">Western North</option>
+                <option value="western">Western</option>
+            </select>
+        </div>
+        <br>
+        <div style='text-align: center;'>
+            <label for="language">Favourite Programming Languages: </label> <br>
+            &nbsp; <input type="checkbox">Python <br>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox">Javascript <br>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="checkbox">HTML & CSS <br>
+            <input type="checkbox">C++ <br>
+            <input type="checkbox">C# <br>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="checkbox">Ruby on Rails <br>
+        </div>
+        <br>
+        <div style='text-align: center;'>
+            <label for="color">Select Your Favourite Colour: </label>
+            <br>
+            <br>
+            <input type="color">
+        </div>
+        <br>
+        <div style='text-align: center;'>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
