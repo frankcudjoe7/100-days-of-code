@@ -30,9 +30,17 @@ Initially, I wasn't pleased with the fact that the first sections had no coding 
 
 ### Day 4: January 4, 2021
 
-**Today's Progress**: Learnt about videos, audios, iframe, meta tags, escape characters, HTML5 & more. Really enjoying this web dev ride
-Nothing seemingly extraordinary done so far but still impressed by my progress Used iframes for this.
+**Today's Progress**: Learnt about videos, audios, iframe, meta tags, escape characters, HTML5 & more. 
 
-**Thoughts** So impressed by my progress Used iframes for this.
+**Thoughts** Really enjoying this web dev ride. Nothing seemingly extraordinary done so far but still impressed by my progress Used iframes for this.
+
 
 **Link to work:** [Day 04 Tweet](https://twitter.com/thefrankcudjoe/status/1346184637488492545?s=19)
+
+### Day 5: January 5, 2021
+
+**Today's Progress**: Started CSS today. Learnt all about selectors, attributes, properties, box model, colors, layout, etc.  Did my best to clone Google search page.
+
+**Thoughts** Really excited about how much of a difference it made in the overall look of the page. This is really starting to look cool. Like wow, I really cloned Google's search page 
+
+**Link to work:** [Day 05 Tweet](https://twitter.com/thefrankcudjoe/status/1346598412939091968?s=19)
