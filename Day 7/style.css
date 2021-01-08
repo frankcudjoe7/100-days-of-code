@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    font-weight: 100;
+}
+.row {
+    width: 1140px;
+    margin: 0 auto;
+}
+.text-area {
+    width: 40%;
+    padding-top: 20%;
+    transform: translate(0, -25%);
+}
+header {
+    background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)), url(paint\ brush.jpg);
+    height: 100vh;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    padding: 30px 0;
+}
+nav {
+    height: 45px;
+    padding: 10px;
+    background: linear-gradient(90deg, rgba(255,255,255, 0.2) 0%, rgba(255,255,255, 0.4) 25%, rgba(255,255,255, 0.4) 75%, rgba(255,255,255, 0.2) 100%); box-shadow: 0 0 25px rgba(0,0,0,0.1), inset 0 0 1px rgba(255,255,255, 0.6);
+}
+nav ul {
+    margin-left: 35%;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+    font-weight: 500;
+    font-size: 90%;
+}
+h1 {
+    font-size: 350%;
+    color:  #74711A;
+    margin-bottom: 20px;
+}
+.btn:link, .btn:visited {
+    padding: 8px 15px;
+    text-decoration: none;
+    font-size: 90%;
+    font-weight: 400;
+}
+.btn-full {
+    background-color: #74711aa6;
+    margin-right: 30px;
+    color:rgb(255, 255, 255);
+}
+.btn-empty {
+    background-color: rgba(255, 255, 255, 0.664);
+    color: #403F24;
+}
+p{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.active {
+    text-decoration: underline;
+    padding: 3px;
+    color: #74711A;
+    /* border-bottom: 2px solid #fff; */
+}
